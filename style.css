@@ -1,0 +1,536 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6b00;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-btn {
+    background: #ff6b00;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background: linear-gradient(135deg,#ff6b00,#ff914d);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+background-image: url("https://tse3.mm.bing.net/th/id/OIP.E86ZprePzVUoW3Ix9z75zgHaE7?cb=defcachec2&rs=1&pid=ImgDetMain&o=7&rm=3;");
+}
+
+.hero h1 {
+    font-size: 38px;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    border: none;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    margin: 60px auto;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* FOOD GRID */
+.food-grid {
+    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+}
+
+/* GROCERY GRID */
+.grocery-grid {
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+/* RESTAURANTS */
+.restaurant-grid {
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+}
+
+/* CARD */
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: .3s;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card img {
+    width: 100%;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff6b00;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+/* RESTAURANT CARD */
+.restaurant-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.info {
+    padding: 12px;
+}
+
+/* PROMO */
+.promo {
+    background: #fff3e8;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.promo button {
+    margin-top: 15px;
+    background: #ff6b00;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+.footer {
+    background: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+
+.footer a {
+    display: block;
+    color: #bbb;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+copyright {
+    text-align: center;
+}
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background: #fafafa;
+    color: #1f1f1f;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* ================= GLOBAL ================= */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.section {
+    margin: 72px auto;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* ================= NAVBAR ================= */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff6b00;
+}
+
+nav a {
+    margin: 0 14px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #ff6b00;
+}
+
+.cart-btn {
+    background: #ff6b00;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cart-btn:hover {
+    background: #e65f00;
+}
+
+/* ================= HERO ================= */
+.hero {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/07/35/10/99/1000_F_735109972_yy3kkbYzDprSbMuhPpFH0s7PcyppKGjc.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+.Last{
+    display: flex;
+   justify-content: center;
+   gap: 50px;
+   text-align: center;
+}
+.hero h1 {
+    font-size: 42px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero p {
+    margin-top: 12px;
+    opacity: 0.95;
+}
+
+.search-box {
+    margin-top: 28px;
+}
+
+.search-box input {
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    width: 260px;
+    max-width: 80%;
+}
+
+.search-box button {
+    padding: 14px 22px;
+    border: none;
+    background: #1f1f1f;
+    color: white;
+    border-radius: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* ================= GRID ================= */
+.grid {
+    display: grid;
+    gap: 24px;
+}
+
+.food-grid {
+    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+}
+
+.grocery-grid {
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.restaurant-grid {
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+}
+
+/* ================= CARD ================= */
+.card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+.card p {
+    padding: 14px;
+    font-weight: 600;
+}
+
+/* BADGE */
+.badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #ff6b00;
+    color: white;
+    font-size: 12px;
+    padding: 5px 9px;
+    border-radius: 6px;
+}
+
+/* ================= RESTAURANTS ================= */
+.restaurant-card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    transition: 0.3s ease;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-8px);
+}
+
+.info {
+    padding: 16px;
+}
+
+.info h3 {
+    font-size: 18px;
+}
+
+.info p {
+    color: #666;
+    font-size: 14px;
+}
+
+.info span {
+    margin-top: 6px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* ================= PROMO ================= */
+.promo {
+    background: #fff3e8;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.promo h2 {
+    font-size: 30px;
+}
+
+.promo button {
+    margin-top: 16px;
+    background: #ff6b00;
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #1f1f1f;
+    color: white;
+    padding: 60px 20px;
+    margin-top: 80px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 24px;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #bbb;
+    margin-top: 6px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+    nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .search-box input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search-box button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+ 
+
+
+
+
+/* SERVICES */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: .3s;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+/* DOWNLOAD SECTION */
+.download-section {
+    background: #fff3e8;
+    padding: 60px 20px;
+}
+
+.download-grid {
+    /*grid-template-columns: repeat(auto-fit,minmax(20px,1fr));*/
+    gap: 30px;
+    align-items: center;
+    /*background-image: url("https://images.freekaamaal.com/common-images/fkm_qr_codenew.png");*/
+}
+.us{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.us1{
+    display:flex;
+    flex-direction: row;
+}
