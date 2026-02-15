@@ -1,4 +1,4 @@
-# 🍔 FoodNest – Swiggy Inspired Homepage Clone
+# 🍔 SWIGGY – Swiggy Inspired Homepage Clone
 
 A modern **food delivery homepage UI** inspired by popular food-tech platforms like Swiggy.  
 This project is built using **pure HTML and CSS** for learning and frontend practice purposes.
