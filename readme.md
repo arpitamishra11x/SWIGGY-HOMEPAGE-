@@ -7,7 +7,7 @@ The goal of this project is to understand layout structuring, responsive design,
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Project Overview !
 
 FoodNest is a static homepage that simulates a multi-service food platform experience including:
 
