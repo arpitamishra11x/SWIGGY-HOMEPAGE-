@@ -23,7 +23,7 @@ This project focuses on **UI recreation and frontend fundamentals**, not backend
 
 ---
 
-## ✨ Features
+## ✨ Features !
 
 ✅ Sticky navigation bar  
 ✅ Hero section with search interface  
@@ -38,7 +38,7 @@ This project focuses on **UI recreation and frontend fundamentals**, not backend
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used !
 
 - HTML5
 - CSS3
