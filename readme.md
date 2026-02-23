@@ -45,7 +45,7 @@ This project focuses on **UI recreation and frontend fundamentals**, not backend
 - Flexbox
 - CSS Grid
 
-No JavaScript or frameworks were used in this version.
+No JavaScript or frameworks were used in this version........
 
 ---
 
